@@ -16,4 +16,10 @@ public class RunnerTest {
 	public void testAreaOfTriangle() {
 		assertEquals(25.0, Runner.areaOfTriangle(10.0, 5.0), 0.00001);
 	}
+
+	@Test
+	public void testConcat() {
+		String[] strings = new String[] {"some", "strings", "put", "together"};
+		assertEquals("somestringsputtogether", Runner.concat(strings));
+	}
 }
