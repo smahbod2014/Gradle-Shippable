@@ -18,7 +18,7 @@ public class Runner {
 
 	public static String concat(String[] strings) {
 		String result = "";
-		for (int i = 0; i < strings.length; i++) {
+		for (int i = 1; i < strings.length; i++) {
 			result += strings[i];
 		}
 		return result;
